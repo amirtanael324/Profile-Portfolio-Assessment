@@ -1,8 +1,8 @@
-names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
-search_name = "Sam"
+names = ["jake", "zac", "ian", "ron", "sam", "dave"]
+search_name = input("Enter the name to search for: ")
 found = False
 for name in names:
-    if name == search_name:
+    if name == search_name.lower():
         found = True
         break
 if found:
